@@ -1,0 +1,33 @@
+MANIFEST.txt             this file
+README-source_code.txt   info about the source code
+README.txt               general info about NagrASM
+
+NagrASM.exe       Windows executable
+nagrasm.dynamic   Linux dynamic executable
+nagrasm.static    Linux static executable
+
+src/COPYING       important notes
+src/Makefile      Makefile
+src/as.h          header
+src/as.c          main program
+src/input.c       input functions
+src/output.c      output functions
+src/object.c      object file functions
+src/util.c        utility functions
+src/eval.c        expression evaluator
+src/symtab.c      symbol table
+src/pseudo.c      pseudo-ops
+src/tables.c      tables
+src/macro.c       macro processor
+src/st7.c         MC68C05 and ST7 tables and code
+
+examples/all_opcodes_sorted_by_name.asm     examples of all opcodes
+examples/all_opcodes_sorted_by_value.asm    examples of all opcodes
+
+examples/example.asm      examples of different features and styles NagrASM supports
+examples/example.inc      include file to demonstrate that feature.
+
+reference/68HC05_ref_manual.pdf   6805 Reference Manual
+reference/ST7_PROGMANUAL.pdf      ST7 Reference Manual
+reference/asrefman.txt            'as' series of assemblers reference manual
+                                  (this is what NagrASM is based on)
